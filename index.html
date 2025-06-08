@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <title>USDZ Viewer</title>
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <style>
       body {
         margin: 0;
@@ -31,11 +30,8 @@
       ar-modes="scene-viewer quick-look webxr"
     >
     </model-viewer>
-  </body>
-</html>
-    </model-viewer>
 
-    <!-- 스크립트를 다시 한 번 확실히 로딩 -->
+    <!-- 🔥 스크립트는 body 안쪽, model-viewer 태그 다음에 위치 -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   </body>
 </html>
